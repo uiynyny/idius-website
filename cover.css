@@ -1,0 +1,263 @@
+/* Import Bootstrap CSS */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css');
+
+/* Custom styles for this template */
+@import url('cover.css');
+
+/* Set default styles for the entire document */
+html, body {
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-family: sans-serif;
+}
+
+/* Set styles for the main container */
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  margin: auto;
+  justify-content: center;
+}
+
+/* Set styles for the main content */
+main {
+  padding: 5rem 3rem;
+}
+
+/* Set styles for the title and subtitle */
+
+.fstcontainer {
+    padding-bottom: 3rem;
+}
+
+.fst {
+  font-weight: bold;
+}
+
+.fsts {
+  color: #936aeeff;
+}
+
+
+/* Set styles for the paragraphs */
+.para1 {
+  font-size: 1.25rem;
+}
+
+/* Set styles for the image links */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  padding-top: 5rem;
+}
+
+/* Set styles for the footer */
+.ft {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: auto;
+  padding: 1.5rem;
+}
+
+/* Set styles for the links in the footer */
+.linkstyle {
+  color: #000000;
+  text-decoration: none;
+  padding: 0.5rem;
+}
+
+/* Set styles for the social media icons */
+.ss img {
+  max-height: 400px;
+}
+
+.ss {
+    display:flex; 
+    justify-content: center;
+}
+
+
+.ssc {
+    display: flex;
+    flex-direction: row;
+  }
+  
+.ssc .col {
+    flex: 1;
+    align-self: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  
+.ss1{
+    padding-left: 2rem;
+    align-self: flex-start;
+  }
+
+.ss1i .ss2i{
+  max-width: 100%;
+  height: auto;
+  display: flex !important;
+  align-self: flex-start !important;
+}
+
+.ss2{
+  align-self: flex-end;
+}
+
+  
+.ssc img {
+    max-height: 400px;
+  }
+/* Set custom styles for specific elements */
+.ttst {
+  padding-bottom: 3rem;
+  width: 50%;
+  display: inline-block;
+}
+
+.maintthing {
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row; 
+  padding: 0 3rem;
+}
+
+.comp{
+  width: 100%;
+}
+
+.socials {
+  display: flex;
+  flex-direction: row;
+}
+
+.imgt {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  max-height: 25px;
+}
+
+.footertext{
+  color: black;
+  text-decoration: none;
+  padding: 2px;
+}
+
+@media only screen and (max-width: 600px ) {
+  /* Set styles for the main container */
+  .container {
+    padding: 1rem;
+    height: 100%;
+  }
+
+  /* Set styles for the main content */
+  main {
+    padding: 2rem 1rem;
+  }
+
+  /* Set styles for the image links */
+  .img-fluid {
+    padding-top: 2rem;
+  }
+
+  /* Set styles for the title and subtitle */
+  .fstcontainer {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .fst {
+    font-size: 2rem;
+  }
+
+  .fsts {
+    font-size: 1.5rem;
+  }
+
+  /* Set styles for the paragraphs */
+  .para1 {
+    font-size: 1rem;
+  }
+
+  /* Set styles for the social media icons */
+  .ss img {
+    max-height: 200px;
+  }
+
+  /* Set custom styles for specific elements */
+  .ttst {
+    padding-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .maintthing {
+    padding: 0 1rem;
+    flex-direction: column;
+  }
+
+  .ssc {
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .ss1 {
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .ss1i .ss2i {
+    max-height: 200px;
+  }
+
+  .ss2 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .ft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .comp{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 2rem;
+  }
+
+  .footertext{
+    font-size: 0.8rem;
+    padding: 0.5rem;
+  }
+
+}
